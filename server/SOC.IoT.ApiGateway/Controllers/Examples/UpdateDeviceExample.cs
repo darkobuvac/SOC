@@ -1,8 +1,8 @@
-﻿using SOC.IoT.Domain.Entity;
-using SOC.IoT.Models;
+﻿using SOC.IoT.ApiGateway.Models;
+using SOC.IoT.Domain.Entity;
 using Swashbuckle.AspNetCore.Filters;
 
-namespace SOC.IoT.Controllers.Examples;
+namespace SOC.IoT.ApiGateway.Controllers.Examples;
 
 public class UpdateDeviceExample : IExamplesProvider<DeviceUpdateDTO>
 {

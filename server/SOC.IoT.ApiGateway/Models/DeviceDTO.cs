@@ -4,7 +4,7 @@ using Newtonsoft.Json.Serialization;
 using SOC.IoT.Domain.Entity;
 using System.ComponentModel.DataAnnotations;
 
-namespace SOC.IoT.Models;
+namespace SOC.IoT.ApiGateway.Models;
 
 /// <summary>
 /// Provides a device with its ID and capabilities

@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SOC.IoT.ApiGateway.Controllers.Examples;
+using SOC.IoT.ApiGateway.Models;
 using SOC.IoT.Base.Interfaces;
-using SOC.IoT.Controllers.Examples;
-using SOC.IoT.Models;
 using Swashbuckle.AspNetCore.Filters;
 using System.ComponentModel.DataAnnotations;
 
-namespace SOC.IoT.Controllers;
+namespace SOC.IoT.ApiGateway.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

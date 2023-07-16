@@ -1,7 +1,7 @@
 ﻿using SOC.IoT.Domain.Entity;
 using SOC.IoT.Domain.Enum;
 
-namespace SOC.IoT.Models;
+namespace SOC.IoT.ApiGateway.Models;
 
 /// <summary>
 /// Class used to update a device's state

@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.SignalR;
+using SOC.IoT.ApiGateway.Models;
 using SOC.IoT.Base.Interfaces;
-using SOC.IoT.Models;
 using System.Runtime.CompilerServices;
 
-namespace SOC.IoT.Hubs;
+namespace SOC.IoT.ApiGateway.Hubs;
 
 /// <summary>
 /// Hub for device related events

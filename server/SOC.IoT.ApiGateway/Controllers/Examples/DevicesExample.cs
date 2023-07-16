@@ -1,9 +1,9 @@
-﻿using SOC.IoT.Domain.Entity;
+﻿using SOC.IoT.ApiGateway.Models;
+using SOC.IoT.Domain.Entity;
 using SOC.IoT.Domain.Enum;
-using SOC.IoT.Models;
 using Swashbuckle.AspNetCore.Filters;
 
-namespace SOC.IoT.Controllers.Examples;
+namespace SOC.IoT.ApiGateway.Controllers.Examples;
 
 internal class DevicesExample : IExamplesProvider<IEnumerable<DeviceDTO>>
 {

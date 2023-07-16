@@ -1,9 +1,9 @@
 using SOC.IoT.Base.Interfaces;
-using SOC.IoT.Controllers.Examples;
-using SOC.IoT.Hubs;
 using Swashbuckle.AspNetCore.Filters;
 using System.Reflection;
 using SOC.IoT.Base;
+using SOC.IoT.ApiGateway.Hubs;
+using SOC.IoT.ApiGateway.Controllers.Examples;
 
 var builder = WebApplication.CreateBuilder(args);
 
